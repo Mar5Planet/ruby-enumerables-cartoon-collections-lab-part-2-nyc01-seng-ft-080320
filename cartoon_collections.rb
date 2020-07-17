@@ -22,7 +22,7 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
  
 
-sharks.find {|item| item.include?("a")}
+planeteer_calls.find {|item| item.include?("a")}
   
   
 end
